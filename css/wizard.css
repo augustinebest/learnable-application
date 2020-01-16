@@ -1,9 +1,8 @@
-* {
-    box-sizing: border-box;
-  }
-  
+
   body {
-    background-color: rgb(25, 67, 92);
+    background-image: url('../svg/bg1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   * {
@@ -11,12 +10,15 @@
   }
   
   #regForm {
-    background-color: #ffffff;
-    margin: 100px auto;
-    font-family: Raleway;
-    padding: 40px;
-    width: 70%;
-    min-width: 300px;
+    /* background-color: #ffffff; */
+    /* margin: 100px auto; */
+    /* font-family: Raleway; */
+    /* padding: 40px; */
+    /* width: 70%; */
+    /* min-width: 300px; */
+    border: 1px solid #f00;
+    margin: auto;
+    width: 90%;
   }
   
   h1 {

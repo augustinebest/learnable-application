@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -31,38 +32,61 @@
                 </li>
                 <li class="step">
                     <div>
-                        <div class="header">Personal Data</div class="header">
+                        <div class="header">Education</div class="header">
+                        <div class="description">Tell us about your field of
+                            Study</div class="description">
+                    </div>
+                </li>
+                <li class="step">
+                    <div>
+                        <div class="header">Thoughts</div class="header">
                         <div class="description">Tell us about yourself</div class="description">
                     </div>
                 </li>
                 <li class="step">
                     <div>
-                        <div class="header">Personal Data</div class="header">
-                        <div class="description">Tell us about yourself</div class="description">
+                        <div class="header">Social Media</div class="header">
+                        <div class="description">Let’s connect</div class="description">
                     </div>
                 </li>
                 <li class="step">
                     <div>
-                        <div class="header">Personal Data</div class="header">
-                        <div class="description">Tell us about yourself</div class="description">
-                    </div>
-                </li>
-                <li class="step">
-                    <div>
-                        <div class="header">Personal Data</div class="header">
-                        <div class="description">Tell us about yourself</div class="description">
+                        <div class="header">Assessment</div class="header">
+                        <div class="description">Final confirmation</div class="description">
                     </div>
                 </li>
             </ul>
-                <!-- <span class="step">
-                    Personal Data
-                </span>
-                <span class="step"></span>
-                <span class="step"></span>
-                <span class="step"></span>
-                <span class="step"></span> -->
         </div>
+        <form id="regForm" class="mt-5">
+            <div class="tab">
+                <div class="section__title">Educational Background</div>
+            </div>
+            <div class="tab">Contact Info:
+                <p><input placeholder="E-mail..." name="email"></p>
+                <p><input placeholder="Phone..." name="phone"></p>
+            </div>
+            <div class="tab">Birthday:
+                <p><input placeholder="dd" name="dd"></p>
+                <p><input placeholder="mm" name="nn"></p>
+                <p><input placeholder="yyyy" name="yyyy"></p>
+            </div>
+            <div class="tab">Login Info:
+                <p><input placeholder="Username..." name="uname"></p>
+                <p><input placeholder="Password..." name="pword" type="password"></p>
+            </div>
+            <div class="tab">Last Component:
+                <p><input placeholder="Username..." name="uname"></p>
+                <p><input placeholder="Password..." name="pword" type="password"></p>
+            </div>
+            <div style="overflow:auto;">
+                <div style="float:right;">
+                    <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                    <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+                </div>
+            </div>
+        </form>
     </div>
+    <script src="js/wizard.js"></script>
 </body>
 
 </html>
