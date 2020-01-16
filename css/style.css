@@ -1,0 +1,75 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.frame {
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.application {
+    text-align: center;
+}
+
+.learnable {
+    font-family: Avenir Next LT Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 44px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.navigation {
+    height: 81px;
+    width: 100%;
+    /* display: inline-block; */
+}
+
+.navigation ul {
+    display: flex;
+    background-color: #fff;
+    list-style: none;
+    ;
+}
+
+.header {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    color: #071852;
+}
+
+.description {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.navigation ul li {
+    display: flex; justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+    .frame {
+        width: 95%;
+    }
+}
